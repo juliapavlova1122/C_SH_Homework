@@ -4,4 +4,19 @@
 // a = 2 b = 10 -> max = 10
 // a = -9 b = -3 -> max = -3
 
-Console.WriteLine("Hello, World!");
+Console.WriteLine("Write number a: ");
+int a = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Write number b: ");
+int b = int.Parse(Console.ReadLine());
+
+if (a > b)
+{
+    Console.Write("max= ");
+    Console.WriteLine("a");    
+}
+else
+{
+    Console.Write("max= ");
+    Console.WriteLine(b);
+}
