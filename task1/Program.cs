@@ -13,7 +13,7 @@ int b = int.Parse(Console.ReadLine());
 if (a > b)
 {
     Console.Write("max= ");
-    Console.WriteLine("a");    
+    Console.WriteLine(a);    
 }
 else
 {
