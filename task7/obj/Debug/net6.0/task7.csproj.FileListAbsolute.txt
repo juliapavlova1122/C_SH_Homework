@@ -1,0 +1,15 @@
+C:\Users\Igor\Documents\geek brains\Знакомство с языками программирования\с#\seminar1\Homeworks\C_SH_Homework\task7\bin\Debug\net6.0\task7.exe
+C:\Users\Igor\Documents\geek brains\Знакомство с языками программирования\с#\seminar1\Homeworks\C_SH_Homework\task7\bin\Debug\net6.0\task7.deps.json
+C:\Users\Igor\Documents\geek brains\Знакомство с языками программирования\с#\seminar1\Homeworks\C_SH_Homework\task7\bin\Debug\net6.0\task7.runtimeconfig.json
+C:\Users\Igor\Documents\geek brains\Знакомство с языками программирования\с#\seminar1\Homeworks\C_SH_Homework\task7\bin\Debug\net6.0\task7.dll
+C:\Users\Igor\Documents\geek brains\Знакомство с языками программирования\с#\seminar1\Homeworks\C_SH_Homework\task7\bin\Debug\net6.0\task7.pdb
+C:\Users\Igor\Documents\geek brains\Знакомство с языками программирования\с#\seminar1\Homeworks\C_SH_Homework\task7\obj\Debug\net6.0\task7.csproj.AssemblyReference.cache
+C:\Users\Igor\Documents\geek brains\Знакомство с языками программирования\с#\seminar1\Homeworks\C_SH_Homework\task7\obj\Debug\net6.0\task7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Igor\Documents\geek brains\Знакомство с языками программирования\с#\seminar1\Homeworks\C_SH_Homework\task7\obj\Debug\net6.0\task7.AssemblyInfoInputs.cache
+C:\Users\Igor\Documents\geek brains\Знакомство с языками программирования\с#\seminar1\Homeworks\C_SH_Homework\task7\obj\Debug\net6.0\task7.AssemblyInfo.cs
+C:\Users\Igor\Documents\geek brains\Знакомство с языками программирования\с#\seminar1\Homeworks\C_SH_Homework\task7\obj\Debug\net6.0\task7.csproj.CoreCompileInputs.cache
+C:\Users\Igor\Documents\geek brains\Знакомство с языками программирования\с#\seminar1\Homeworks\C_SH_Homework\task7\obj\Debug\net6.0\task7.dll
+C:\Users\Igor\Documents\geek brains\Знакомство с языками программирования\с#\seminar1\Homeworks\C_SH_Homework\task7\obj\Debug\net6.0\refint\task7.dll
+C:\Users\Igor\Documents\geek brains\Знакомство с языками программирования\с#\seminar1\Homeworks\C_SH_Homework\task7\obj\Debug\net6.0\task7.pdb
+C:\Users\Igor\Documents\geek brains\Знакомство с языками программирования\с#\seminar1\Homeworks\C_SH_Homework\task7\obj\Debug\net6.0\task7.genruntimeconfig.cache
+C:\Users\Igor\Documents\geek brains\Знакомство с языками программирования\с#\seminar1\Homeworks\C_SH_Homework\task7\obj\Debug\net6.0\ref\task7.dll
