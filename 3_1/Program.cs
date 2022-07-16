@@ -16,7 +16,6 @@ if (a > 99999 || a<10000)
 else
     {
     int a1digit = a / 10000;
-    Console.WriteLine(a1digit);
     int a2digit = (a / 1000) %10;
     int a3digit = (a / 100) %10;
     int a4digit = (a / 10) %10;
