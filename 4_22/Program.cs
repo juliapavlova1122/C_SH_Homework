@@ -7,18 +7,18 @@
 
 double DigitSum(int num)
 {
-string n = num.ToString();
-int length = n.Length;
-double sum = 0;
-for (int i = 0; i < length; i++)
-{
+    string n = num.ToString();
+    int length = n.Length;
+    double sum = 0;
+    for (int i = 0; i < length; i++)
+    {
 
-double m = char.GetNumericValue(n[i]);
+        double m = char.GetNumericValue(n[i]);
 
-sum += m;
-}
+        sum += m;
+    }
 
-return sum;
+    return sum;
 }
 
 int n = 452;

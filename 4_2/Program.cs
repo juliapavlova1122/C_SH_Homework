@@ -15,3 +15,14 @@ while (a > 0)
 
 Console.WriteLine (sum);
 
+
+int sumnum(int num)
+{
+    int n_sum = 0;
+
+    for (int i = num; num != 0; num /= 10)
+    n_sum +=num%10;
+    return n_sum;
+}
+
+// Console.WriteLine ...

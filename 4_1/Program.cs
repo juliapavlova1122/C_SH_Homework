@@ -8,7 +8,7 @@ int Nums (int a, int b)
 
 {
     int exponentiation = a;
-    for(int i = 1; i<b; i++)
+    for(int i = 2; i<=b; i++)
     exponentiation = exponentiation * a;
     return exponentiation;
 }
