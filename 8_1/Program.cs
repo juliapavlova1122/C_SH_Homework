@@ -14,9 +14,9 @@ void Print(int[,] arr)
     int row_size = arr.GetLength(0);
     int column_size = arr.GetLength(1);
 
-    for(int i = 0; i < row_size; i++)
+    for (int i = 0; i < row_size; i++)
     {
-        for(int j = 0; j < column_size; j++)
+        for (int j = 0; j < column_size; j++)
         {
             Console.Write($" {arr[i, j]} ");
         }
@@ -28,33 +28,31 @@ int[,] MassNums(int row, int column, int from, int to)
 {
     int[,] arr = new int[row, column];
 
-    for(int i = 0; i < row; i++)
+    for (int i = 0; i < row; i++)
     {
-        for(int j = 0; j < column; j++)
+        for (int j = 0; j < column; j++)
         {
             arr[i, j] = new Random().Next(from, to);
-        }        
+        }
     }
-    return arr;    
+    return arr;
 }
 
 
-void SelectionSort(int[] arr)
+void SelectionSort(int[,] arr)
 {
-    for(int j=0; j<arr.GetLength(1); j++)
+    for (int j = 0; j < arr.GetLength(1); j++)
     {
-        for(int i=0; i<arr.GetLength(0); i++)
-    {
-        int minPosition = arr [i];
-        for(int count = i+1; count <arr.Length; count++)
+        for (int i = 0; i < arr.GetLength(0); i++)
         {
-            if(arr[count] < arr[minPosition]) minPosition = count;
+            for (int count = i; count < arr.GetLength(1) - j - 1; count++)
+            {
+                if (arr[i, count] < arr[i, count + 1])
+                {
+                  
+                }
+            }            
         }
-
-        int temporary = arr[i];
-        arr[i] = arr[minPosition];
-        arr[minPosition] = temporary;
-    }
     }
 }
 
@@ -65,11 +63,9 @@ int column = int.Parse(Console.ReadLine());
 
 int[,] arr_1 = MassNums(row, column, 0, 10);
 Print(arr_1);
+SelectionSort(arr_1);
+Print(arr_1);
 
-PrintArray(arr);
-SelectionSort(arr);
-
-PrintArray(arr);
 
 
 

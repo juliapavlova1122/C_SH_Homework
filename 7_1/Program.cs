@@ -28,8 +28,8 @@ double[,] MassNums(int row, int column, double from, double to)
     {
         for(int j = 0; j < column; j++)
         {
-           arr [i, j] = Math.Round(new Random().NextDouble() * ((100)- (-100) +  (-100)), 2);
-                    
+           // arr [i, j] = Math.Round(new Random().NextDouble() * ((100)- (-100) +  (-100)), 2);
+           arr [i, j] = Math.Round(new Random().NextDouble() * (100 - 200) + 50, 2);         
         }        
     }
     return arr;    
