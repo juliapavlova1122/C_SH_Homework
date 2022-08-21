@@ -41,15 +41,15 @@ int[,] MassNums(int row, int column, int from, int to)
 
 void SelectionSort(int[,] arr)
 {
-    for (int j = 0; j < arr.GetLength(1); j++)
+    for (int i = 0; i < arr.GetLength(0); i++)
     {
-        for (int i = 0; i < arr.GetLength(0); i++)
+        for (int j = 0; j < arr.GetLength(1); j++)
         {
             for (int count = i; count < arr.GetLength(1) - j - 1; count++)
             {
                 if (arr[i, count] < arr[i, count + 1])
                 {
-                  
+                  (arr[i, count], arr[i, count + 1]) = (arr[i, count + 1], arr[i, count]);
                 }
             }            
         }
