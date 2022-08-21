@@ -37,21 +37,41 @@ int[,] MassNums(int row, int column, int from, int to)
     return arr;    
 }
 
-void SumElement (int[,] arr)
+int [] MinRowSum (int[,] arr)
 {
-    for(int i=0; i<arr.GetLength(0); i++)
+    int row_size = arr.GetLength(0);
+    int column_size = arr.GetLength(1);
+    int [] RowSum = new int [row_size];
+
+    for (int i = 0; i < row_size; i++)
+    {
+        int sum = 0;
+        for (int j = 0; j < column_size; j++)
         {
-        for(int j=0; j<arr.GetLength(1); j++)
-        {
-            double sum = 0;
-            for (int count= 0; count <=arr.GetLength(0); count++)
-            {
-            sum =sum+ arr[i, j+count];
-            Console.WriteLine ($" {sum} " );           
-            }
+            sum = sum + arr [i, j];
+            RowSum[i] = sum;
             
         }
-                
+    }
+    return RowSum;
+}
+
+void RowString (int [] arr)
+{
+    int PosMin = 0;
+    for (int i = 0; i < arr.Length; i++)
+    {
+        if (arr[i] < arr [PosMin])
+        PosMin = i;
+    }
+    Console.WriteLine ($"Строка с наименьшей суммой элементов {PosMin+1} ");
+}
+
+void NewArray (int [] arr)
+{
+    for (int i = 0; i < arr.Length; i++)
+    {
+        Console.Write ($"{arr[i]} ");
     }
 }
 
@@ -63,9 +83,12 @@ int column = int.Parse(Console.ReadLine());
 int[,] arr_1 = MassNums(row, column, 0, 100);
 Print(arr_1);
 
-SumElement(arr_1);
+int [] arr2 = MinRowSum(arr_1);
+Console.WriteLine("Суммы строк");
+NewArray(arr2);
+Console.WriteLine();
 
-Print(arr_1);
+RowString(arr2);
 
 
 
